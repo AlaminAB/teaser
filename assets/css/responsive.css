@@ -1,0 +1,490 @@
+
+/* ***Responsive media query*** */
+
+@media (min-width: 1500px) {
+    .contianer {
+        max-width: 1450px;
+    }
+
+    section.text_wrap p {
+        padding-left: 400px;
+    }
+
+    section.text_wrap h2 {
+        padding-left: 90px;
+    }
+
+    .container-fluid {
+        width: 100%;
+        max-width: 1660px;
+        padding: 0 15px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .hero_btn_wrap a.bg_def {
+        max-width: 280px;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width:1500px){ 
+    .container {
+        max-width: 1140px;
+      }
+          .testi_row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .single_testi {
+        margin: 0 15px;
+    }
+      .cta-info h3 {
+    font-size: 33px;
+    line-height: 50px;
+    word-spacing: 0px;
+    margin-top: -10px;
+}
+.left-banner-content h2 {
+    font-size: 34px;
+    line-height: 50px;
+}
+.team-info p {
+    font-size: 19px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.team-info h2 {
+    font-size: 35px;
+    line-height: 50px;
+    padding-top: 5px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .container {
+        max-width: 960px;
+      }
+          .testi_row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .single_testi {
+        margin: 0 15px;
+    }
+
+    .testi_text p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .auth_det h5 {
+        font-size: 16px;
+    }
+      .cta-info h3 {
+    font-size: 28px;
+    line-height: 45px;
+    word-spacing: 0px;
+    margin-top: -10px;
+}
+.right-banner-img img {
+    max-width: 200px;
+}
+.right-banner-img {
+    margin-top: -55px;
+    margin-bottom: -55px;
+}
+.right-banner-overly {
+    position: absolute;
+    top: 26px;
+    width: 125px;
+    background: #ffd200;
+    left: 50px;
+}
+.right-banner-overly span {
+    font-size: 20px;
+    line-height: 20px;
+    text-align: right;
+    color: #000;
+    font-weight: 300;
+    padding: 8px 10px;
+}
+.left-banner-content h2 {
+    font-size: 28px;
+    line-height: 45px;
+}
+.team-info p {
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.team-info h2 {
+    font-size: 30px;
+    color: #0056e2;
+    line-height: 45px;
+    padding-top: 0px;
+}
+.team-info:first-child {
+    padding-bottom: 25px;
+}
+}
+
+
+@media(max-width: 991.98px) { 
+.team-section-content {
+    justify-content: normal;
+    flex-direction: column-reverse;
+}
+.team-right-img {
+    max-width: 100%;
+}
+.team-left-content {
+    max-width: 100%;
+    padding-right: 0;
+    padding-top: 50px;
+}
+.team-img img {
+    width: 100%;
+    max-width: 100%;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .container {
+        max-width: 720px;
+      }
+          section.blue_wrap .container {
+        max-width: 100%;
+    }
+
+    .testi_row {
+        margin-left: -15px;
+        margin-right: -15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .single_testi {
+        margin: 0 15px;
+        max-width: calc(50% - 30px);
+        margin-bottom: 30px;
+    }
+      .footer-content {
+    display: block;
+}
+.cta-info {
+    max-width: 100%;
+    padding-left: 0;
+    margin-top: 60px;
+}
+.cta-info h3 {
+    font-size: 35px;
+    line-height: 55px;
+     margin-top: 0;
+    }
+    .contact-form {
+    max-width: 100%;
+}
+.right-banner-img img {
+    max-width: 150px;
+}
+.left-banner-content h2 {
+    font-size: 21px;
+    line-height: 45px;
+}
+.right-banner-img {
+    margin-top: -45px;
+    margin-bottom: -45px;
+    position: relative;
+}
+.right-banner-overly {
+    position: absolute;
+    top: 20px;
+    max-width: 104px;
+    background: #ffd200;
+    left: 35px;
+}
+.right-banner-overly span {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 6px 10px;
+}
+}
+
+@media (max-width: 767.98px) { 
+    .container {
+        max-width: 720px;
+      }
+            .footer-content {
+    display: block;
+}
+      .cta-info {
+    max-width: 100%;
+    padding-left: 0;
+    margin-top: 60px;
+}
+.contact-form {
+    max-width: 100%;
+}
+.cta-info h3 {
+     margin-top: 0;
+    }
+    .container.header_wrap a img {
+        max-width: 30px;
+    }
+
+    .header_logo a {
+        font-size: 48px;
+    }
+
+    .header_right a span {
+        margin-right: 6px;
+        font-size: 18px;
+    }
+
+    .vdo_content h1 {
+        font-size: 42px;
+        line-height: 1;
+    }
+
+    .vdo_content p {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+
+    .vdo_content {
+        padding-top: 175px;
+    }
+
+    section.video_wrap {
+        min-height: 420px;
+    }
+
+    .hero_btn_wrap a.bg_def {
+        max-width: 50%;
+    }
+
+    .hero_btn_wrap a {
+        width: calc(50% - 14px);
+        margin-bottom: 15px;
+    }
+
+    .hero_btn_wrap .custom_row {
+        flex-wrap: wrap;
+    }
+
+    .hero_btn_wrap {
+        padding-bottom: 5px;
+    }
+
+    section.text_wrap h2 {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+
+    section.text_wrap p {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+
+    section.blue_wrap .container {
+        max-width: 100%;
+    }
+
+    .single_blue {
+        padding: 30px 25px;
+        flex-direction: column-reverse;
+    }
+
+    .testi_row {
+        margin-left: -15px;
+        margin-right: -15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .single_testi {
+        margin: 0 15px;
+        max-width: calc(100%);
+        margin-bottom: 30px;
+    }
+    .header_logo a img {
+    max-width: 55px !important;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .container {
+        max-width: 540px;
+      }
+          .testi_row {
+        margin-left: -15px;
+        margin-right: -15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .single_testi {
+        margin: 0 15px;
+        max-width: calc(50% - 30px);
+        margin-bottom: 20px;
+    }
+      .cta-info h3 {
+    font-size: 28px;
+    line-height: 40px;
+}
+.cta-row a {
+    max-width: 230px;
+    font-size: 20px;
+    }
+    .left-banner-content h2 {
+    font-size: 25px;
+    line-height: 40px;
+}
+.right-banner-img {
+    margin-top: -40px;
+    margin-bottom: -40px;
+    position: relative;
+}
+.right-banner-img img {
+    max-width: 120px;
+}
+.right-banner-overly {
+    top: 15px;
+    width: 93px;
+    left: 10px;
+}
+.right-banner-overly span {
+    font-size: 15px;
+    line-height: 16px;
+    padding: 3px 8px;
+}
+.team-info p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.team-info h2 {
+    font-size: 35px;
+    line-height: 50px;
+}
+}
+
+
+@media (max-width: 480px) {
+    .container.header_wrap a img {
+        max-width: 20px;
+    }
+
+    .header_left a {
+        margin-right: 0px;
+    }
+
+    .header_logo a {
+        font-size: 30px;
+    }
+
+    .header_right a span {
+        margin-right: 3px;
+        font-size: 14px;
+    }
+
+    .vdo_content h1 {
+        font-size: 32px;
+    }
+
+    .vdo_content p {
+        font-size: 18px;
+    }
+
+    .blue_txt h4 {
+        font-size: 24px;
+    }
+
+    .blue_txt p {
+        font-size: 18px;
+    }
+
+    h3.blue_title {
+        font-size: 32px;
+    }
+
+    .testi_title h2 {
+        font-size: 34px;
+    }
+
+    .testi_title p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) { 
+.cta-info h3 {
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 300;
+    word-spacing: 0px;
+}
+.cta-row a {
+    font-size: 16px;
+    line-height: 33px;
+    }
+    .cta-row a img {
+    margin-left: 15px;
+    max-width: 35px;
+    max-height: 33px;
+    display: block;
+}
+.left-banner-content h2 {
+    font-size: 16px;
+    line-height: 30px;
+}
+.right-banner-img {
+    margin-top: -35px;
+    margin-bottom: -35px;
+}
+.right-banner-img-wrp {
+    text-align: right;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.right-banner-img {
+    max-width: 95px;
+}
+.right-banner-overly {
+    position: absolute;
+    top: 13px;
+    width: 78px;
+    background: #ffd200;
+    left: -53px;
+}
+.right-banner-overly span {
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 4px 8px;
+}
+.right-banner-img img {
+    max-width: 95px;
+}
+.team-info p {
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 12px;
+}
+.team-info h2 {
+    font-size: 30px;
+    line-height: 50px;
+    padding-top: 5px;
+}
+.team-info:first-child {
+    padding-bottom: 30px;
+}
+.team-section-content {
+    padding-bottom: 140px;
+}
+}
