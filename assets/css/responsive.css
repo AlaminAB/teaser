@@ -275,7 +275,7 @@
         max-width: 50%;
     }
 
-    .hero_btn_wrap a {
+    .hero_btn_wrap input {
         width: calc(50% - 14px);
         margin-bottom: 15px;
     }

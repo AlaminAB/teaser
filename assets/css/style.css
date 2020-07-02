@@ -173,12 +173,12 @@ a.bg_def.active {
     background: #ffd200;
     text-align: center !important;
 }
-.hero_btn_wrap a {
+.hero_btn_wrap input {
     display: block;
     width: 100%;
     background-color: #fff;
     margin: 0 7px;
-    padding: 6px 11px;
+    padding: 10px 11px;
     color: #000;
     font-size: 20px;
     transition: .4s;
@@ -186,10 +186,15 @@ a.bg_def.active {
     -moz-transition: .4s;
     -ms-transition: .4s;
     -o-transition: .4s;
+    border:1px solid #fff;
+    text-align: right;
 }
 
-.hero_btn_wrap a:hover {
+.hero_btn_wrap input:focus {
     background-color: #ffd200;
+    border:1px solid #ffd200;
+    outline: none;
+
 }
 
 .hero_btn_wrap {
