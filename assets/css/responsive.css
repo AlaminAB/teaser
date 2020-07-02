@@ -134,8 +134,13 @@
 
 @media(max-width: 991.98px) { 
 .team-section-content {
-    justify-content: normal;
-    flex-direction: column-reverse;
+    -webkit-box-pack: normal;
+        -ms-flex-pack: normal;
+            justify-content: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
 }
 .team-right-img {
     max-width: 100%;
@@ -163,8 +168,11 @@
     .testi_row {
         margin-left: -15px;
         margin-right: -15px;
-        flex-wrap: wrap;
-        justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     .single_testi {
@@ -273,7 +281,8 @@
     }
 
     .hero_btn_wrap .custom_row {
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
 
     .hero_btn_wrap {
@@ -296,14 +305,20 @@
 
     .single_blue {
         padding: 30px 25px;
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
     }
 
     .testi_row {
         margin-left: -15px;
         margin-right: -15px;
-        flex-wrap: wrap;
-        justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     .single_testi {
@@ -323,8 +338,11 @@
           .testi_row {
         margin-left: -15px;
         margin-right: -15px;
-        flex-wrap: wrap;
-        justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     .single_testi {
@@ -449,8 +467,11 @@
 .right-banner-img-wrp {
     text-align: right;
     margin-right: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 .right-banner-img {
     max-width: 95px;
